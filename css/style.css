@@ -1,0 +1,284 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+</style>
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+
+}
+.v_center{
+  align-items: center;
+}
+.h_center{
+  justify-content: center;
+}
+header{
+  background: #F0FFF0;
+  ;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 30%;
+}
+.logo a{}
+.logo a img{
+  width: 198px;
+}
+nav{
+  padding: 30px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 60%;
+}
+nav ul li{
+}
+nav ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding: 5px 15px;
+  display: block;
+  text-decoration: none;
+}
+nav ul li a:hover{}
+
+
+.bannerContent{
+    flex-basis: 50%;
+    padding: 50px 0;
+}
+.bannerContent h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+  color: #000000;
+  max-width: 400px;
+}
+.bannerContent h6{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FD511A;
+
+}
+.bannerContent h1 span{
+  color: #21B573;
+}
+.bannerContent p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #6C6B6B;
+  max-width: 420px;
+}
+.btn{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #21B573;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  padding: 12px 36px;
+  display: inline-block;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.btn:hover{
+  background: transparent;
+  color: #21B573;
+}
+
+.bannerImage{
+    flex-basis: 50%;
+    padding: 50px 0;
+}
+.bannerImage img {
+  max-width: 95%;
+}
+
+.featureSection{}
+.col_1_4{
+  flex-basis: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.feature{
+  background: #f0fff0;
+  border-radius: 10px;
+  padding: 50px 15px;
+  text-align: center;
+  transition-duration:0.3s ;
+}
+.feature:hover{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.feature img{
+    height: 80px;
+    margin-bottom: 5px;
+}
+.feature h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+.feature span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+
+.onlineCrouseSection{}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+  padding: 16px 0;
+}
+.col_1_3{
+  flex-basis: 33.33%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.courses{
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  padding: 20px;
+}
+.courses img{
+  max-width: 100%;
+}
+.courses h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+  margin: 9px 0;
+}
+.courses span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+  display: block;
+  margin-bottom: 15px;
+}
+.courses a{}
+.courses a:hover{}
+.courses ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -35px;
+
+}
+.courses ul li{display: flex;align-items: center;margin-top: 20px;}
+.courses ul li svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 4px;
+}
+.courses ul li strong{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+
+.testimonialSection{}
+.customer{
+  
+flex-basis: 10%;
+  
+padding: 15px;
+  
+box-sizing: border-box;
+}
+.customer img{
+
+max-width: 100%;
+}
+.feedback{
+    flex-basis: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.feedback p{}
+
+footer{
+  background: #282531;
+}
+.col_3_10{
+  flex-basis: 31%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.col_7_10{
+  flex-basis: 65%;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+footer ul{}
+footer ul li{
+    list-style: none;
+}
+footer ul li strong{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+footer ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer ul li a:hover{}
+
+.copyright{
+  padding: 70px 0 30px;
+
+  
+
+}
+.copyright p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+
+
